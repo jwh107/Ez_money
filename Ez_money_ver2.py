@@ -175,7 +175,7 @@ while 1:
     go2TradingFlea()
 
     # type item and set up our filter
-    # typeItem(name_list[randNum], flea_filter_list[randNum])
+    typeItem(name_list[randNum], flea_filter_list[randNum])
     
     # buy
     Buy(init_time, buying_time)
@@ -186,9 +186,8 @@ while 1:
     go2Menu(esc_iter, 3)
 
     # go to Trading Dealers
-    # go2TradingDealer(dealer_list[randNum])
-    go2TradingDealer('T')
-    
+    go2TradingDealer(dealer_list[randNum])
+
     # sell
     Sell()
 
